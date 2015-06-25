@@ -1,0 +1,36 @@
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select:after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  pointer-events: none;
+  border-top: 8px solid hsl(0, 0%, 27%);
+  border-left: 6px solid hsla(0, 0%, 0%, 0);
+  border-right: 6px solid hsla(0, 0%, 0%, 0);
+}
+
+.select > select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  height: 40px;
+  line-height: 37px;
+  padding: 0 30px 0 10px;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border: none;
+
+}
+
+.select > select::-ms-expand {
+  display: none;
+}
