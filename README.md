@@ -1,5 +1,7 @@
 # select
 
+> DEPRECATED - use [@nib-styles/react-form](https://github.com/nib-styles/react-form)
+
 Styles for a select.
 
 ## Installation
